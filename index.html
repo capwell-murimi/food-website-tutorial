@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+      <div id="preloader">
+    </div>
     <header>
         <a href="#" class="logo">Food<span>.</span></a>
         <div class="menuToggle" onclick="toggleMenu();"></div>
@@ -249,6 +251,11 @@
         menuToggle.classList.toggle('active');
         navigation.classList.toggle('active');
     }
+    var loader = document.getElementById("preloader")
+
+     window.addEventListener("load", function(){
+         loader.style.display = "none";
+     })
    </script>
 </body>
 </html>
