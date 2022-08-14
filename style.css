@@ -447,3 +447,19 @@ section{
     position: fixed;
     z-index: 100;
 }
+.emailbutton{
+    font-size: 1em;
+    color: #fff;
+    background: red;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.7s;
+}
+.emailbutton:hover{
+    transform: scale(1.1);
+}
+
